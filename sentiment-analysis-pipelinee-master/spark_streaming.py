@@ -23,8 +23,8 @@ def create_spark_session():
             .config("spark.cassandra.connection.port", "9042") \
             .config("spark.cassandra.auth.username", "cassandra") \
             .config("spark.cassandra.auth.password", "cassandra") \
-            .config("spark.hadoop.fs.s3a.access.key", "AKIAYEQZEJ7WCXHYCDFP") \
-            .config("spark.hadoop.fs.s3a.secret.key", "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") \
+            .config("spark.hadoop.fs.s3a.access.key", "access-key") \
+            .config("spark.hadoop.fs.s3a.secret.key", "secret-key") \
             .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com") \
             .getOrCreate()
         spark.sparkContext.setLogLevel("ERROR")
