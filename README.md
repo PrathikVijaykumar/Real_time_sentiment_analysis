@@ -11,6 +11,8 @@ kafka_review_submission_dag.py: An Airflow DAG to trigger the review submission 
 requirements.txt: Python dependencies for the Flask app.
 Dockerfile: Dockerfile for building the Flask app container.
 
+![Demo GIF](realTime_demo.gif)
+
 ## Architecture:
 <img width="1419" alt="image" src="architecture.png">
 
